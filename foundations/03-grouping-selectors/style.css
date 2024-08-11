@@ -1,0 +1,15 @@
+.left_box,
+.right_box {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+
+.left_box {
+    background-color: black;
+    color: white;
+}
+
+.right_box {
+    background-color: yellow;
+    color: black;
+}
