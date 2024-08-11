@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Methods for Adding CSS</title>
-  </head>
-  <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Methods for Adding CSS</title>
+</head>
+<!-- external css linked method -->
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <div>Style me via the external method!</div>
+  <p>I would like to be styled with the internal method, please.</p>
+  <!-- inline css link method -->
+  <button style="background-color: orange; color: black;">Inline Method</button>
+
+  <!-- internal css linked method -->
+  <style>
+    p {
+      color: white;
+      background-color: green;
+    }
+  </style>
+</body>
+
 </html>
